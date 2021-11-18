@@ -1,0 +1,55 @@
+# Desafio
+
+Criar uma API com base dos dados do governo ([Benefícios Básicos e Variáveis - Bolsa Família](https://dados.gov.br/dataset/beneficios-bolsa-familia-mi-social)) e utilizá-los em aplicações backend e/ou frontend.
+
+### Requisitos
+
+- NodeJS
+- Java
+- IDE da preferência
+
+# Referência dos Dados
+
+[misocial.json](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8cc2e60a-ae8b-4270-bbbe-067047a7fe2f/misocial.json)
+
+**ibge**: código ibge do município
+**anomes**: ano e mês de referência
+**qtd_ben_bas**: Quantidade de benefícios básicos
+**qtd_ben_var**: Quantidade de benefícios variáveis
+**qtd_ben_bvj**: Quantidade de benefícios jovem
+**qtd_ben_bvn**: Quantidade de benefícios nutriz
+**qtd_ben_bvg**: Quantidade de benefícios gestantes
+**qtd_ben_bsp**: Quantidade de benefícios superação extrema pobreza
+**siglauf**: UF
+
+# Desafios
+
+## JAVA
+
+- Criar um servidor REST através do json-server (node.js) utilizando o JSON fornecido
+- Criar uma aplicação JAVA (Proxy) utilizando Spring ou Servlet/JSP para consumir os serviços
+disponibilizados através do [json-server](https://github.com/typicode/json-server) e apresentá-los usando JSP ou o JSON através da chamada REST.
+
+**Observação:** Caso o candidato opte por desenvolver o proxy em java, o desafio de javascript/typescript deverá consumir desta API.
+
+## JAVASCRIPT/TYPESCRIPT
+
+- Utilizar o JSON fornecido e criar um MOCK com os dados
+- Utilizar os dados em memória e criar uma aplicação frontend (CRUD)
+
+**Observação:** Caso o candidato opte por desenvolver o proxy em java, o desafio de Javascript/Typescript deverá consumir desta API.
+
+### Requisitos
+
+- Validações
+- Adicionar um novo item
+- Excluir um item
+- Busca paginada
+- Buscar itens por UF
+- Ordenação dos itens apresentados
+
+# Entrega
+
+Deverá ser feito o upload do código no Github e enviar o link no e-mail dos participantes.
+paivawilliamm@johndeere.com
+vendrusculoleonardo@johndeere.com

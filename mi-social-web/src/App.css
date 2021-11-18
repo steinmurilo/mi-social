@@ -1,0 +1,99 @@
+select {
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #D9D1DB;
+}
+
+button {
+  margin: 4px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D9D1DB;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #C5B6C9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-form {
+  margin: 10px 45px;
+  padding: 30px;
+  border: solid 5px #D9D1DB;
+  border-radius: 5px;
+}
+
+.data-form .form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.data-form input {
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #D9D1DB;
+}
+
+.data-form label, span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.data-select {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 10px 45px;
+}
+
+.data-table {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 45px;
+  border: solid 5px #C5B6C9;
+  border-radius: 10px;
+}
+
+.data-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.data-table .selected {
+  color: purple;
+}
+
+.data-table svg {
+  color: #AB2E2E;
+}
+
+.data-table th:hover,svg:hover {
+  cursor: pointer;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #D9D1DB ;
+}
+
+.data-table th {
+  background-color: #C5B6C9;
+  padding: 8px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 45px 0 45px;
+  justify-content: flex-end;
+}
